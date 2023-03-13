@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border-width: 0px
+  }
+
+
+.container {
+  margin: auto;
+  display: flex;
+  width: 400px;
+  height: 500px;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background: linear-gradient(rgb(26, 42, 221),rgb(238, 236, 85));
+}
+
+.selector {
+    background-color: rgb(94, 92, 207);
+    width: 150px;
+    height: 50px;
+    border: 1px solid rgb(25, 28, 44);
+    color: white;
+}
+
