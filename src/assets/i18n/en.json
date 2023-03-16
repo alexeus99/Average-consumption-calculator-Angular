@@ -1,0 +1,21 @@
+{
+    "OPTION-SELECTOR": {
+        "FIRST": "Convert MPG to L/100km",
+        "SECOND": "Average fuel consumption"
+    },
+    "BUTTON": {
+        "LANG": {
+            "EN": "English",
+            "UA": "Ukrainian"
+        }
+    },
+    "MPG-CALCULATOR": {
+        "FIRST": "Enter a value of MPG:",
+        "SECOND": "Your L/100km value:"
+    },
+    "LKM-CALCULATOR": {
+        "FIRST": "I refueled liters:",
+        "SECOND": "Distance:",
+        "THIRD": "Average consumption"
+    }
+}

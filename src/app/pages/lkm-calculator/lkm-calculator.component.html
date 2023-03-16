@@ -3,7 +3,7 @@
   <form [formGroup]="form">
   <div class="input-container">
 
-    <label for="input-1" class="label-for-inputs">I refueled:</label>
+    <label for="input-1" class="label-for-inputs">{{ "LKM-CALCULATOR.FIRST" | translate}}</label>
     <input
       formControlName="refueled"
       id="input-1"
@@ -14,7 +14,7 @@
     />
   </div>
   <div class="input-container">
-    <label for="input-1" class="label-for-inputs">Distance:</label>
+    <label for="input-1" class="label-for-inputs">{{ "LKM-CALCULATOR.SECOND" | translate}}</label>
     <input
     formControlName="distance"
       id="input-1"
@@ -25,7 +25,7 @@
     />
   </div>
   <div class="input-container">
-    <label for="input-1" class="label-for-inputs">Average consumption:</label>
+    <label for="input-1" class="label-for-inputs">{{ "LKM-CALCULATOR.THIRD" | translate}}</label>
     <input
     formControlName = "consumption"
       id="input-1"

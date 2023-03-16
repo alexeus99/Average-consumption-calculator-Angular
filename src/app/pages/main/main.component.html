@@ -1,11 +1,14 @@
 <div class="container">
-    <button routerLink="/app-option-selector" style="background-image: url('/assets/img/ua.jpeg')"
-        class="lang-button">
-        
-    </button>
-    <button routerLink="/app-option-selector" style="background-image: url('/assets/img/gb.png'); "
+  <button
+    routerLink="/app-option-selector"
+    style="background-image: url('/assets/img/ua.jpeg')"
     class="lang-button"
-    >
-    
-</button>
+    (click)="translate.use('ua')"
+  ></button>
+  <button
+    routerLink="/app-option-selector"
+    style="background-image: url('/assets/img/gb.png')"
+    class="lang-button"
+    (click)="translate.use('en')"
+  ></button>
 </div>
