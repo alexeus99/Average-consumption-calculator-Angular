@@ -14,6 +14,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     OptionSelectorComponent,
     MpgCalculatorComponent,
     LkmCalculatorComponent,
+    
   ],
   imports: [BrowserModule, AppRoutingModule,FormsModule,ReactiveFormsModule],
   providers: [],

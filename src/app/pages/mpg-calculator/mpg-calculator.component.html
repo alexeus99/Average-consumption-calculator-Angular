@@ -1,10 +1,27 @@
 <div class="container">
+  <img class="nav-back-btn" routerLink="/app-option-selector" src="/assets/img/return.png" />
+  <form [formGroup]="form">
     <div class="input-container">
-    <label for="input-1" class="label-for-inputs">Enter a value of MPG:</label>
-    <input id='input-1'value="Type here..." type="number" class="input-field" >
-</div>
-<div class="input-container">
-    <label for="input-1" class="label-for-inputs">Your value is:</label>
-    <input id='input-1'value="Type here..." type="number" class="input-field" >
-</div>
+        
+      <label for="input-1" class="label-for-inputs"
+        >Enter a value of MPG:</label
+      >
+      <input
+        formControlName="fromMpg"
+        id="input-1"
+        type="number"
+        class="input-field"
+      />
+    </div>
+    <div class="input-container">
+      <label for="input-1" class="label-for-inputs">Your L/100km value:</label>
+      <input
+        id="input-1"
+        type="number"
+        class="input-field"
+        formControlName="toLkm"
+        readonly
+      />
+    </div>
+  </form>
 </div>
